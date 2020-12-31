@@ -1,7 +1,10 @@
+import java.util.Scanner;
 
 public class Grade {
     public static void main(String[]args) {
-        int grade= -23;
+        Scanner object = new Scanner(System.in);
+        System.out.println("Enter any marks");
+        int grade = object.nextInt() ;
         if(grade>=80 && grade <= 100) {
             System.out.println("A");
         } else if (grade>=70 && grade < 80) {

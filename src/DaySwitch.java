@@ -1,7 +1,10 @@
+import java.util.Scanner;
 
 public class DaySwitch {
     public static void main(String[] args) {
-        int day = 7;
+        Scanner object = new Scanner(System.in);
+        System.out.println( "Enter any number");
+        int day = object.nextInt();
         switch (day) {
             case 1:
                 System.out.println("monday");
