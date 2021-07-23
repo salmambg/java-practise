@@ -1,12 +1,11 @@
+import java.util.stream.Stream;
 
 public class MultiArray2 {
     public static void main(String args[]) {
-        int arr [][]= {{3,4,5},{2,3,4},{5,6,7}};
-        for(int i= 0; i<3; i++) {
-            for(int j=0;j<3; j++)  {
-                System.out.print(arr[i][j]+" ");
-            }
-            System.out.println();
-        }
+        System.out.println("Hello World");
+        System.out.println(Stream.of("green", "yellow", "blue")
+                .max((s1,s2)-> s1.compareTo(s2))
+                .filter(s->s.endsWith("n"))
+                .orElse("yellow"));
     }
 }
