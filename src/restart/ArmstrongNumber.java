@@ -19,7 +19,7 @@ public class ArmstrongNumber {
         if(sum==number){
             System.out.println("This is a armstrong number");
         }else{
-            System.out.println("This is not  armstrong number");
+            System.out.println("This is not armstrong number");
         }
     }
 }
