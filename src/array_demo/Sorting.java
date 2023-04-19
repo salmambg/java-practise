@@ -12,7 +12,7 @@ public class Sorting {
             System.out.print(" "+number[i]);
         }
         System.out.println();
-        System.out.print("Descending: ");
+        System.out.print("Descending Order: ");
         for (int i=4;i>=0;i--) {
             System.out.print(" "+number[i]);
         }
