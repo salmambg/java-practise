@@ -7,7 +7,7 @@ public class Sorting {
         int[] number= {10,-3,8,5,6};
 
         Arrays.sort(number);
-        System.out.print("Ascending: ");
+        System.out.print("Ascending Order: ");
         for (int i=0;i<5;i++) {
             System.out.print(" "+number[i]);
         }
