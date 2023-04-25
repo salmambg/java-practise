@@ -2,6 +2,10 @@ package OOP;
 
 public class Teacher {
 
+    Teacher() {
+        System.out.println("No value"); //deafult constructor
+    }
+
     Teacher(String n,String g,String p) {//there is no return type
         name =n;
         gender=g;

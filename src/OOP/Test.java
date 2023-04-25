@@ -26,5 +26,8 @@ public class Test {
 
           Teacher teacher2=new Teacher("G M Nazmul","male","55234388");
           teacher2.displayInformation();
+
+          Teacher teacher3=new Teacher();
+          teacher3.displayInformation();
     }
 }
