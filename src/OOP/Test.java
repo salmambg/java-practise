@@ -6,20 +6,14 @@ public class Test {
 //        teacher1=new Teacher();//object create
 
         Teacher teacher1=new Teacher();
-        teacher1.name="Salma akter";
-        teacher1.gender="Female";
-        teacher1.phone = "01674535738";
-
-       teacher1.displayInformation();
+        teacher1.setInformation("Salma Akter","Female","0167453575");
+        teacher1.displayInformation();
 
         System.out.println();//to make a new line you can also write this in method
 
         Teacher teacher2=new Teacher();
-        teacher2.name="Salma Akter";
-        teacher2.gender="Female";
-        teacher2.phone = "01454535738";
-
-       teacher2.displayInformation();
+        teacher2.setInformation("G M Nazmul","male","55234388");
+        teacher2.displayInformation();
 
 
     }
